@@ -1,0 +1,25 @@
+{
+  "name": "pixi-ts-parcel-starter",
+  "version": "1.0.0",
+  "description": "A web game starter project",
+  "repository": "https://github.com/JohnRush/pixi-ts-parcel-starter.git",
+  "author": "John Rush <https://github.com/JohnRush>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "start": "npm run clean && parcel src/web/index.html",
+    "build": "npm run clean && parcel build src/index.html --public-url ./",
+    "build_serve": "npm run build && http-server ./dist",
+    "clean": "npx rimraf ./dist ./.cache"
+  },
+  "dependencies": {
+    "pixi.js": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^5.0.0",
+    "parcel": "^2.6.0",
+    "querystring-es3": "^0.2.1",
+    "typescript": "^4.7.3"
+  }
+}

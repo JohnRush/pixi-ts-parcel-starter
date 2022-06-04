@@ -1,18 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <meta charset="utf-8" />
     <title>Pixi Starter</title>
+    <base href="/" />
+
+    <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <meta name="description" content="A Pixi.js starter project" />
+    <meta name="theme-color" content="#E1477E" />
+
+    <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Pixi Starter" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="icon" href="../assets/icons/icon_24.png" type="image/x-icon" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- <script
+      type="module"
+      src="https://unpkg.com/@fluentui/web-components"
+      crossorigin="anonymous"
+    ></script> -->
+    <script type="module" src="../bootloader.ts"></script>
   </head>
   <body>
     <section>
       <h1>Pixi Starter</h1>
       <div id="pixiTarget"></div>
     </section>
+    <!-- <script type="module">
+      navigator.serviceWorker.register(new URL("./sw.js", import.meta.url));
+    </script> -->
+    <!-- <script type="module">
+      if ("serviceWorker" in navigator) {
+        const serviceWorkerPath = "./sw.js";
+        navigator.serviceWorker.register(
+          new URL(
+            process.env.NODE_ENV === "production"
+              ? serviceWorkerPath
+              : `${serviceWorkerPath}?dev-sw`,
+            import.meta.url
+          ),
+          { type: "module" }
+        );
+      }
+    </script> -->
   </body>
-  <script src="../bootloader.ts" type="module"></script>
-  </script>
 </html>

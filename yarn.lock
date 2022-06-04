@@ -455,6 +455,14 @@
     globals "^13.2.0"
     nullthrows "^1.1.1"
 
+"@parcel/packager-raw-url@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/packager-raw-url/-/packager-raw-url-2.6.0.tgz#a2ceb64006839aa9d8cb83e7c11b278be46e701e"
+  integrity sha512-ddckywqcC+6FozsNm49C9CO0zKK8t1AJS8fMNByHFta3cnlRzeo8inEjIcfXnvX/s1RhTXrOflyF73+z6J1QBw==
+  dependencies:
+    "@parcel/plugin" "2.6.0"
+    "@parcel/utils" "2.6.0"
+
 "@parcel/packager-raw@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@parcel/packager-raw/-/packager-raw-2.6.0.tgz#8ccf041acd102a38b2ffa02fd8ef634652255bd2"
@@ -680,6 +688,16 @@
     posthtml-parser "^0.10.1"
     posthtml-render "^3.0.0"
     semver "^5.7.1"
+
+"@parcel/transformer-webmanifest@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-webmanifest/-/transformer-webmanifest-2.6.0.tgz#b3caaa14c9b69e6fd434c7082a066fdc09ef9c8d"
+  integrity sha512-SYTFZ4eMLU3/FS0YZlOGviGwkqjFznG3b+tgdoYKrs03faQOy5fQPcFSeXl3z0iCh6Jh1KdW8ccjDpxLB3OLpg==
+  dependencies:
+    "@mischnic/json-sourcemap" "^0.1.0"
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/plugin" "2.6.0"
+    "@parcel/utils" "2.6.0"
 
 "@parcel/types@2.6.0":
   version "2.6.0"
@@ -930,6 +948,11 @@
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/earcut/-/earcut-2.1.1.tgz#573a0af609f17005c751f6f4ffec49cfe358ea51"
   integrity sha512-w8oigUCDjElRHRRrMvn/spybSMyX8MTkKA5Dv+tS1IE/TgmNZPqUYtvYBXGY8cieSE66gm+szeK+bnbxC2xHTQ==
+
+"@types/node@^17.0.39":
+  version "17.0.39"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.39.tgz#3652d82e2a16b4ea679d5ea3143b816c91b7e113"
+  integrity sha512-JDU3YLlnPK3WDao6/DlXLOgSNpG13ct+CwIO17V8q0/9fWJyeMJJ/VyZ1lv8kDprihvZMydzVwf0tQOqGiY2Nw==
 
 "@types/offscreencanvas@^2019.6.4":
   version "2019.7.0"
@@ -1537,6 +1560,11 @@ posthtml@^0.16.4, posthtml@^0.16.5:
   dependencies:
     posthtml-parser "^0.11.0"
     posthtml-render "^3.0.0"
+
+process@^0.11.10:
+  version "0.11.10"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
 promise-polyfill@^8.2.0:
   version "8.2.3"

@@ -19,7 +19,7 @@ A starter project for 2D web-based game development.
 * Build release builds that can be deployed as static site
 * Work decently on desktop and phone (high DPI doesn't suck)
 
-* ([Progress Web App](https://microsoft.github.io/win-student-devs/#/30DaysOfPWA))
+* [Progress Web App](https://github.com/pwa-builder/pwa-starter)
   *   Remove web chrome (fit right on the screen)
   *   Work offline
   *   Pin to home screen
